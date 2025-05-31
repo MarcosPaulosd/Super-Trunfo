@@ -1,7 +1,7 @@
 #include <stdio.h> 
 
 int main() {
-    // Declarando as variáveis para a Carta 1 ---
+    // Declarando as variáveis para a Carta 1
     char estado1;
     char codigoCarta1[5]; 
     char nomeCidade1[50]; 
@@ -12,8 +12,9 @@ int main() {
 
     // Solicitando ao usuário os dados da primeira carta.
     printf("Por Gentileza, Insira os dados da primeira carta\n");
+    
 
-    printf("Insira agora uma letra para o Estado entre (A e H): ");
+    printf("Estado entre (A e H): ");
     scanf(" %c", &estado1); 
 
     printf("Codigo da Carta (ex: A01): ");

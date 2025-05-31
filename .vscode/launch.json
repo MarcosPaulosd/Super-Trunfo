@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Executar Super_Trunfo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Super_Trunfo",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb"
+    }
+  ]
+}
+
+
+
